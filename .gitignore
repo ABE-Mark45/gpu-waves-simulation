@@ -1,0 +1,6 @@
+glm/
+glad/
+glfw/
+build/
+*.zip
+.vscode/
