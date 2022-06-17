@@ -49,7 +49,7 @@ int main(void)
 {
     GLFWwindow *window = CreateWindow();
 
-    GLuint rendering_program = Utils::createShaderProgram("./shaders/vertex_shader.glsl", "./shaders/fragment_shader.glsl");
+    GLuint rendering_program = Utils::createShaderProgram("../shaders/vertex_shader.glsl", "../shaders/fragment_shader.glsl");
     glUseProgram(rendering_program);
 
     Scene scene(window, rendering_program, CONSTANTS::CAMERA_X, CONSTANTS::CAMERA_Y, CONSTANTS::CAMERA_Z);
